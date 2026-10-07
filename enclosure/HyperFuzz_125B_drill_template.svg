@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156.5mm" height="186.9mm" viewBox="-43.25 -115.95 156.5 186.9" font-family="Helvetica" >
+<rect x="-33.25" y="-60.95" width="66.5" height="121.9" rx="4" fill="none" stroke="black" stroke-width="0.3"/>
+<text x="-33.25" y="-108.95" font-size="3">HyperFuzz — 125B side A (face), outside view, 1:1. Origin = centre.</text>
+<line x1="-3" y1="0" x2="3" y2="0" stroke="#999" stroke-width="0.15"/><line x1="0" y1="-3" x2="0" y2="3" stroke="#999" stroke-width="0.15"/>
+<circle cx="-19.0" cy="-19.95" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-20.0" y1="-19.95" x2="-18.0" y2="-19.95" stroke="red" stroke-width="0.15"/><line x1="-19.0" y1="-20.95" x2="-19.0" y2="-18.95" stroke="red" stroke-width="0.15"/>
+<text x="-19.0" y="-13.2" font-size="2.2" text-anchor="middle">GAIN Ø7.5</text>
+<circle cx="0.0" cy="-19.95" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-1.0" y1="-19.95" x2="1.0" y2="-19.95" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="-20.95" x2="0.0" y2="-18.95" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="-13.2" font-size="2.2" text-anchor="middle">FOLD Ø7.5</text>
+<circle cx="19.0" cy="-19.95" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="18.0" y1="-19.95" x2="20.0" y2="-19.95" stroke="red" stroke-width="0.15"/><line x1="19.0" y1="-20.95" x2="19.0" y2="-18.95" stroke="red" stroke-width="0.15"/>
+<text x="19.0" y="-13.2" font-size="2.2" text-anchor="middle">SYMMETRY Ø7.5</text>
+<circle cx="-19.0" cy="5.05" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-20.0" y1="5.05" x2="-18.0" y2="5.05" stroke="red" stroke-width="0.15"/><line x1="-19.0" y1="4.05" x2="-19.0" y2="6.05" stroke="red" stroke-width="0.15"/>
+<text x="-19.0" y="11.8" font-size="2.2" text-anchor="middle">TONE Ø7.5</text>
+<circle cx="19.0" cy="5.05" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="18.0" y1="5.05" x2="20.0" y2="5.05" stroke="red" stroke-width="0.15"/><line x1="19.0" y1="4.05" x2="19.0" y2="6.05" stroke="red" stroke-width="0.15"/>
+<text x="19.0" y="11.8" font-size="2.2" text-anchor="middle">VOLUME Ø7.5</text>
+<circle cx="0.0" cy="5.05" r="1.6" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-1.0" y1="5.05" x2="1.0" y2="5.05" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="4.05" x2="0.0" y2="6.05" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="9.65" font-size="2.2" text-anchor="middle">LED Ø3.2</text>
+<circle cx="0.0" cy="37.95" r="6.1" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-1.0" y1="37.95" x2="1.0" y2="37.95" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="36.95" x2="0.0" y2="38.95" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="47.050000000000004" font-size="2.2" text-anchor="middle">Footswitch 3PDT Ø12.2</text>
+<rect x="-33.25" y="-100.45" width="66.5" height="39.5" rx="3" fill="none" stroke="black" stroke-width="0.3" stroke-dasharray="1,0.6"/>
+<text x="35.25" y="-80.7" font-size="2.5">Side B (top end, jacks) — unfolded above A</text>
+<circle cx="-15.2" cy="-86.45" r="4.85" fill="none" stroke="black" stroke-width="0.25"/>
+<text x="-15.2" y="-79.00000000000001" font-size="2" text-anchor="middle">1/4" jack Ø9.7</text>
+<circle cx="0.0" cy="-76.3" r="4.05" fill="none" stroke="black" stroke-width="0.25"/>
+<text x="0.0" y="-69.65" font-size="2" text-anchor="middle">DC jack Ø8.1</text>
+<circle cx="15.2" cy="-86.45" r="4.85" fill="none" stroke="black" stroke-width="0.25"/>
+<text x="15.2" y="-79.00000000000001" font-size="2" text-anchor="middle">1/4" jack Ø9.7</text>
+<rect x="45.25" y="48.95" width="50" height="10" fill="none" stroke="black" stroke-width="0.2"/><text x="46.25" y="54.95" font-size="2.5">Check: this box = 50 × 10 mm when printed</text>
+</svg>
