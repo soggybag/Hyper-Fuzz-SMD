@@ -1,0 +1,9 @@
+Designator,Value,Footprint,Qty,Note
+RV1,C100k,Alpha RD901F-40 9mm vertical,1,"GAIN - back side; solder both mounting tabs"
+RV2,B1M,Alpha RD901F-40 9mm vertical,1,"FOLD - back side; solder both mounting tabs"
+RV3,B100k,Alpha RD901F-40 9mm vertical,1,"SYMMETRY - back side; solder both mounting tabs"
+RV4,B50k,Alpha RD901F-40 9mm vertical,1,"TONE - back side; solder both mounting tabs"
+RV5,A10k,Alpha RD901F-40 9mm vertical,1,"VOLUME - back side; solder both mounting tabs"
+D12,LED,LED_D3.0mm,1,"3mm LED, back side between TONE and VOLUME: square pad = cathode (short leg)"
+J3,IN/LED/GND/OUT,PinHeader_1x04_P2.54mm,1,"Ribbon header to the footswitch board"
+J1 J2 J4 J5,wire pads,SolderWire 0.9mm,4,"9V, G, IG, OG"
