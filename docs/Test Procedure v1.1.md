@@ -88,6 +88,18 @@ General method: `../../_tools/BENCH_TESTING.md`. First build of this board.
 - **4.4 no oscillation ✓. Output a little low:** many low-GAIN, low/mid-FOLD settings are below unity at full VOLUME. → v1.2: make-up gain.
 - **4.5 TONE serviceable.** The tilt-tone idea in Build Notes stays optional.
 
+**Bench mod: R10 47k → 150k (2026-10-14):**
+- SYMMETRY ends (GAIN and FOLD at noon) are now **about half of unity, no longer near-silent** ✓. The shift at the + input drops from ±0.69 V to ±0.25 V, so DRIVE stays off the rails. **The two halves still sound mirrored** (confirmed): the fix is the one-sided wiring in v1.2, not the resistor value.
+- **The overall level is low:**
+  - GAIN, FOLD and SYMMETRY all at min, VOLUME max: very quiet. It rises once FOLD passes ~80%, and reaches unity at FOLD max.
+  - FOLD min, SYMMETRY max: quiet until GAIN ~80%; unity at GAIN max.
+- **Why the action bunches at the top of FOLD:** FOLD is a **B1M (linear) rheostat** in series with a 27k–100k ladder. The ladder only gets real drive once the rheostat is down to ~100–200k, which is the last 10–20% of the rotation. That's the same problem as the B100k GAIN pot (×1.5 → ×2.8 over 75% of its travel).
+- **Conclusions for v1.2:**
+  1. **R10 = 150k** (keep), plus the one-sided SYMMETRY wiring.
+  2. **Make-up gain is needed** (U3A ×3 or more). Most settings are below unity even at full VOLUME.
+  3. **FOLD taper:** a **C1M** (reverse log: ~100k at noon) spreads the fold across the knob. Alternatively a lower value (B250k): test the feel and how clean FOLD min stays.
+  4. **GAIN:** keep the C100k (the B100k test pot confirms the bunching).
+
 ## 5. After boxing
 
 - Supply current (1.1). Check the jacks' ground lugs aren't touching the pot bodies.
