@@ -58,3 +58,13 @@ v1.0 (16 mm pots, fab files generated 2026-09-27, never ordered) is tagged `v1.0
 - Every LCSC number checked against its value/package: either proven on a received board (UF1, UF3, Trem v1) or looked up on JLC (C1790 100p C0G, C7950 LM358DR2G, C17593 27k, C17380 1M2, C26113 2M2, C17797 680k, C26110 1M5, C17501 180k, C4310 1k5, C1779 4u7 25V X5R, C1729 22n X7R, C28636 560, C27834 5k1). **All correct.**
 - Basic vs Extended status **could not be read reliably** from JLC's pages for the high-value resistors (1M2, 1M5, 2M2, 680k, 180k, 1k5, 5k1, 560). Check the fee summary at JLC's BOM step.
 
+## v1.2 ideas (from the v1.1 bench and guitar test, 2026-10-13/14)
+
+Details are in `Test Procedure v1.1.md` §3–4.
+
+1. **SYMMETRY one-sided and gentler.** The pot runs from VREF to VCLEAN (not GND to VCLEAN), and R10 47k → ~150k.
+   - Now: ±2 V at DRIVE, mirrored halves, silent ends.
+   - Goal: the whole rotation goes from symmetric to clearly asymmetric, without reaching the rails.
+2. **Make-up gain:** U3A (now a follower after TONE) becomes non-inverting ×2–3, with the gain leg returned to **VREF** (keeps the DC at VREF; no cap needed). E.g. Rf 22k / Rg 10k = ×3.2.
+3. **Folds at high GAIN (breadboard first):** a low-pass/integrator between the limiter and the ladder, so the limited square becomes a ramp the ladder can fold.
+4. **GAIN taper/range:** the folding sweet spot is at low gain. Re-evaluate C100k vs B100k (the test unit uses B100k), or a lower maximum gain.
